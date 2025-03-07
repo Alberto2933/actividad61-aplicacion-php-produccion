@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta empleado/a</title>
+</head>
+<body>
+<div>
+	<header>
+		<h1>LOL</h1>
+	</header>
+	<main>				
+	<ul>
+		<li><a href="index.php">Inicio</a></li>
+		<li><a href="add.html">Alta</a></li>
+	</ul>
+	<h2>Alta jugador lol </h2>
+<!--FORMULARIO DE ALTA. Al hacer click en el botón Agregar, llama a la página: add.php (form action="add.php")
+La página: add.php se encargará de proceder a la inserción del registro en la tabla de empleados
+-->
+
+	<form action="add_action.php" method="post">
+		<div>
+			<label for="name">Nombre</label>
+			<input type="text" name="name" id="name" placeholder="nombre" required>
+		</div>
+
+		<div>
+			<label for="surname">Apellido</label>
+			<input type="text" name="surname" id="surname" placeholder="apellido" required>
+		</div>
+
+		<div>
+			<label for="age">Edad</label>
+			<input type="number" name="age" id="age" placeholder="edad" required>
+		</div>
+
+		<div>
+			<label for="team">equipo</label>
+			<select name="team" id="team" placeholder="equipo" required>
+				<option value="" disabled selected>Seleccione un equipo</option>
+				<option value="SKT">SKT</option>
+				<option value="MAD_Lions">MAD_Lions</option>
+				<option value="G2easports">G2easports</option>
+				<option value="KOI">KOI</option>
+				<option value="T1">T1</option>
+					<option value="100man">100man</option>
+			</select>	
+		</div>
+		<div>
+			<label for="money">Dinero</label>
+			<input type="number" name="dinero" id="money" placeholder="dinero"/>
+		</div>
+			<div>
+			<label for="year_active">anios_activo</label>
+			<input type="number" name="anios_activo" id="year_active" placeholder="anios_activo" />
+		</div>
+		<div>
+			<input type="submit" name="inserta" value="Agregar">
+			<input type="button" value="Cancelar" onclick="location.href='index.php'">
+		</div>
+	</form>
+	
+	</main>	
+	<footer>
+	Created by ALBERTO CAMACHO &copy; 2025
+  	</footer>
+</div>
+</body>
+</html>
