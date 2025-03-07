@@ -18,5 +18,3 @@ INSERT INTO JugadoresLOL (apellido, nombre, edad, equipo,dinero,anios_activo) VA
 INSERT INTO JugadoresLOL (apellido, nombre, edad, equipo,dinero,anios_activo) VALUES('Cuadrado', 'ares', 14,'100man',3.300,5);
 INSERT INTO JugadoresLOL (apellido, nombre, edad, equipo,dinero,anios_activo) VALUES('Cipitria', 'Sergio', 16,'100man',4.300,4);
 INSERT INTO JugadoresLOL (apellido, nombre, edad, equipo,dinero,anios_activo) VALUES('Ionut', 'Patricio', 27,'100man',9.300,3);
-
-
